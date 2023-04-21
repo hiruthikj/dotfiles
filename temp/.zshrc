@@ -81,16 +81,17 @@ COMPLETION_WAITING_DOTS="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  gitignore
+  python
+  tmux
   zsh-autosuggestions
   zsh-syntax-highlighting
-  fzf
-  z
-  web-search
   zsh-interactive-cd
-  tmux
+  z
+  fzf
+  web-search
   dirhistory
   per-directory-history
-  python
 )
 
 source $ZSH/oh-my-zsh.sh
