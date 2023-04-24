@@ -1,0 +1,21 @@
+[user]
+	name = Hiruthik J
+	email = hiruthik27@gmail.com
+
+[alias]
+	st = status -sb
+	ll = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
+	last = log -1 HEAD --name-status
+
+[help]
+	autocorrect = 20
+
+[commit]
+	gpgsign = true
+
+[diff]
+	tool = vscode
+    
+[init]
+	defaultBranch = main
